@@ -124,17 +124,15 @@
     <PackageReference Include="SQLite.Net.Async-PCL">
       <Version>3.1.1</Version>
     </PackageReference>
+    <PackageReference Include="SQLite.uwp">
+      <Version>3.24.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MySql.Data.UWP-master\MySql.Data.UWP\MySql.Data.UWP.csproj">
       <Project>{07e33122-19dd-4eb1-9b10-e3866be37e58}</Project>
       <Name>MySql.Data.UWP</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="SQLite.UWP.2015, Version=3.24.0">
-      <Name>SQLite for Universal Windows Platform</Name>
-    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
